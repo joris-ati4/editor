@@ -3,6 +3,42 @@
   src: url(~assets/fonts/PressStart2P-Regular.ttf)  format("truetype");
 }
 
+@font-face {
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(~assets/fonts/BeVietnamPro-Light.ttf)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(~assets/fonts/BeVietnamPro-Regular.ttf)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(~assets/fonts/BeVietnamPro-Bold.ttf)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(~assets/fonts/BeVietnamPro-ExtraBold.ttf)
+    format("truetype");
+}
+
 body, html {
     font-family: "Press Start 2P", sans-serif;
     width: 100%;
