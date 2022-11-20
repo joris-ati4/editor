@@ -5,15 +5,22 @@
     <title></title>
   </head>
   <body>
-      <script>
-        window.addEventListener('message', function(e) {
-          if (
-            window.location.origin === 'file://' ||
-            window.location.origin === (e.origin || e.originalEvent.origin)
-          ) {
-            document.documentElement.innerHTML = e.data
-          }
-        })
-      </script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+    <main id="main"></main>
+    <script>
+      window.addEventListener("message", function (e) {
+        if (
+          window.location.origin === "file://" ||
+          window.location.origin === (e.origin || e.originalEvent.origin)
+        ) {
+          const main = document.getElementById('main');
+          main.innerHTML = e.data;
+        }
+      });
+    </script>
   </body>
 </html>
